@@ -1,0 +1,21 @@
+:root {
+    --color--000000: #000000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    text-shadow: var(--color--000000) 1px 1px;
+}
+
+.class-app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('./assets/images/bg.webp');
+    background-size: cover;
+    background-position: center;
+}

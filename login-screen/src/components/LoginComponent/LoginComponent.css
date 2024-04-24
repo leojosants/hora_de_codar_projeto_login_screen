@@ -1,0 +1,106 @@
+:root {
+    --color-ffffff: #ffffff;
+    --color-ffffff26: #ffffff26;
+    --color-ffffff33: #ffffff33;
+    --color-0000001a: #0000001a;
+}
+
+.class-container {
+    width: 450px;
+    background-color: var(--color-ffffff26);
+    backdrop-filter: blur(10px);
+    border: 2px solid var(--color-ffffff33);
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.class-container h1 {
+    text-align: center;
+    font-size: 30px;
+    color: var(--color-ffffff);
+}
+
+.class-input-field {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px auto;
+}
+
+.class-input-field input {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid var(--color-ffffff33);
+    border-radius: 40px;
+    font-size: 16px;
+    color: var(--color-ffffff);
+    padding: 20px 25px;
+}
+
+.class-input-field input::placeholder {
+    color: var(--color-ffffff);
+}
+
+.class-input-field .class-icon {
+    position: absolute;
+    right: 25px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: var(--color-ffffff);
+}
+
+.class-container .class-recall-forget {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+}
+
+.class-recall-forget label {
+    color: var(--color-ffffff);
+}
+
+.class-recall-forget input {
+    margin-right: 5px;
+}
+
+.class-recall-forget a,
+.class-signup-link p a {
+    color: var(--color-ffffff);
+    text-decoration: none;
+}
+
+.class-recall-forget a:hover,
+.class-signup-link p a:hover {
+    text-decoration: underline;
+}
+
+.class-container button {
+    width: 100%;
+    height: 50px;
+    background-color: var(--color-ffffff);
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px var(--color-0000001a);
+    cursor: pointer;
+    font-size: 16px;
+    font-size: 600;
+    text-shadow: none;
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+}
+
+.class-container button:hover {
+    opacity: 0.8;
+}
+
+.class-container .class-signup-link {
+    font-size: 15px;
+    text-align: center;
+    margin: 20px 0 10px;
+    text-shadow: none;
+}
